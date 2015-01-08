@@ -1,8 +1,8 @@
 ﻿<?php
-    if(!defined('DEW')){
+    if(!defined('TEA')){
         die("帅哥，求不黑！");
     }
-    define(ROOT_PATH, str_replace('/includes/init.php', '', str_replace('\\', '/', __FILE__)));
+    define('ROOT_PATH', str_replace('/includes/init.php', '', str_replace('\\', '/', __FILE__)));
     include ROOT_PATH.'/includes/config.php';
     include ROOT_PATH.'/includes/app_mysql.php';
     /*加载smarty所需文件*/

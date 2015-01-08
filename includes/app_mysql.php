@@ -4,7 +4,7 @@
  * 数据库操作的公共库
 */
 
-if (!defined('DEW'))
+if (!defined('TEA'))
 {
     die('帅哥，求不黑！');
 }

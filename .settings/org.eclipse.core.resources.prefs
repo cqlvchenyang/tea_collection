@@ -1,3 +1,7 @@
 eclipse.preferences.version=1
 encoding//includes/app_mysql.php=UTF-8
+encoding//templates/index.html=UTF-8
+encoding//templates/price_manage.html=UTF-8
+encoding//templates/tea_add.html=UTF-8
+encoding//templates/tea_manage.html=UTF-8
 encoding/<project>=UTF-8

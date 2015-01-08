@@ -1,4 +1,29 @@
-<!DOCTYPE html>
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-01-08 08:20:08
+         compiled from "templates\index.html" */ ?>
+<?php /*%%SmartyHeaderCode:2365254ae3afc56aea7-60964467%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '771c6cd58ba95ecc5cc773dc967e2181b0a72064' => 
+    array (
+      0 => 'templates\\index.html',
+      1 => 1420705205,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2365254ae3afc56aea7-60964467',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_54ae3afc5ff6c6_99649984',
+  'variables' => 
+  array (
+    'test' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_54ae3afc5ff6c6_99649984')) {function content_54ae3afc5ff6c6_99649984($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="zh">
 <head>
 	<title></title>
@@ -34,7 +59,8 @@
 	<div class="container-fluid">
 		<div class="jumbotron" id="j_wall">
 			<div class="container">
-				<h1>配送商注册流程</h1>
+				<h1>配送商注册流程<?php echo $_smarty_tpl->tpl_vars['test']->value;?>
+</h1>
 				<p>1、......</p>
 				<p>2、......</p>
 				<p>3、......</p>
@@ -50,7 +76,13 @@
 <footer>
 	丹露网茶叶板块数据采集系统 | <a href="http://danlu.com/#">沪ICP备14043012</a>
 </footer>
-<script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.3/jquery.js"></script>
-<script type="text/javascript" src="templates/js/bootstrap.js"></script>
-<script type="text/javascript" src="templates/js/script.js"></script>
-</html>
+<?php echo '<script'; ?>
+ type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.3/jquery.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ type="text/javascript" src="templates/js/bootstrap.js"><?php echo '</script'; ?>
+>
+<?php echo '<script'; ?>
+ type="text/javascript" src="templates/js/script.js"><?php echo '</script'; ?>
+>
+</html><?php }} ?>
